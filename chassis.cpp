@@ -158,10 +158,10 @@ void forward(bool speedMode) {
     analogWrite(legs[2], 0);
     analogWrite(legs[3], 255);
   }else{
-    analogWrite(legs[0], 25);
+    analogWrite(legs[0], 50);
     analogWrite(legs[1], 0);
     analogWrite(legs[2], 0);
-    analogWrite(legs[3], 25);
+    analogWrite(legs[3], 50);
   }
 }
 
